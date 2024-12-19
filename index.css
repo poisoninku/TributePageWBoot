@@ -1,0 +1,263 @@
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #f8f9fa; 
+}
+
+.navbar {
+    background: #004d66; 
+    color: #fff;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('allen.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 77, 102, 0.7);
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #ffcc00;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #004d66;
+    background: #004d66;
+    border-radius: 0;
+    color: #fff;
+}
+
+.description button:hover {
+    border: 1px solid #ffcc00;
+    background: #ffcc00;
+    color: #004d66;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+    background: #f8f9fa;
+}
+
+.feature-title {
+    color: #004d66;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.features img {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #ffcc00;
+    border: 1px solid #ffcc00;
+    color: #004d66;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #004d66;
+    border: 1px solid #004d66;
+    color: #fff;
+}
+.background {
+    background: #e6e6e6;
+    padding: 4em 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    width: 100%; 
+}
+
+.container.team {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+    flex-wrap: wrap; 
+    max-width: 1200px;
+    width: 100%; 
+}
+
+.container.team .card {
+    background: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    padding: 1em; 
+    max-width: 350px; 
+    text-align: center; 
+}
+
+.container.team .card img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1em;
+    border-radius: 50%; 
+}
+
+.container.team .card-title {
+    font-size: 1.3rem;
+    color: #004d66; 
+    margin-bottom: 0.5em;
+}
+
+.container.team .card-text {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+
+
+.page-footer {
+    background-color: #004d66;
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #ffcc00;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#demo-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#demo-modal .modal-header {
+    border-bottom: none;
+}
+
+#demo-modal h4 {
+    color: #004d66;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#demo-modal .close {
+    border-radius: 50%;
+    color: #004d66;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.8;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+
+#demo-modal .close span {
+    position: relative;
+    top: -3px;
+}
+
+#demo-modal .modal-body p {
+    color: #004d66;
+}
+
+#demo-modal .form-control,
+#demo-modal .btn {
+    min-height: 46px;
+}
+
+#demo-modal .btn {
+    background-color: #004d66;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#demo-modal .btn:hover,
+#demo-modal .btn:focus {
+    background-color: #ffcc00;
+    color: #004d66;
+}
+
+.modal-header img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
